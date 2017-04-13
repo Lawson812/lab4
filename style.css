@@ -1,0 +1,26 @@
+@font-face {
+    font-family: fontFonty;
+    src: url(appel.otf);
+}
+body {
+    background-image:url(images/bg.jpg);
+}
+img:hover{
+    border-radius:10%;
+    transform:rotate(180deg);
+    transition-duration: .9s;
+    transition-timing-function: ease-in-out;
+}
+.blueBar .glyphicon{
+    font-size:150%;
+    margin-top:100%;
+}
+.row1 span:hover{
+    transform:rotate3d(10,80,10,180deg);
+    transition-duration:900ms;
+}
+
+.row1 a:link{
+    text-decoration: none;
+    color:black;
+}
